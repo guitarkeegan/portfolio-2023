@@ -16,9 +16,9 @@ export default function Home() {
         <h3>Projects</h3>
         <div>
           {/* project card components */}
-          <div>panda</div>
-          <div>crypto</div>
-          <div>other</div>
+          <div>PocketPr</div>
+          <div>Hackathons</div>
+          <div>Bootcamp</div>
         </div>
       </div>
     </main>
