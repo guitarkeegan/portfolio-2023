@@ -19,4 +19,6 @@ model Project {
   liveUrl String?
   githubUrl String?
   technologies String
+  thumbnail String
+  alt String
 }
