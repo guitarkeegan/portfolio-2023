@@ -57,6 +57,16 @@ async function main(){
             technologies: "Node, DiscordJS, Heroku"
         }
     });
+    await prisma.project.create({
+        data: {
+            title: "Steep Dreams",
+            authors: "Keegan Anglim, Simmy Vargesse, David Kanas, James",
+            description: "An e-commerce site for selling tea. Features user authentication and mock Stripe Api integration. Also automated emails with nodemailer, and registration with mailchimp for marketing purposes",
+            liveUrl: "",
+            role: "Back end developer",
+            technologies: "Node, DiscordJS, Heroku"
+        }
+    });
     console.log("projects have been seeded!");
 
 }
