@@ -1,5 +1,5 @@
-export default function Project(){
+export default function Project({params}: {params: {title: string}}){
     return (
-        <div>hi</div>
+        <div>{params.title}</div>
     )
 }

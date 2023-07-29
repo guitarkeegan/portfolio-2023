@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto_Slab } from 'next/font/google'
@@ -17,7 +18,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={rSlab.className}>
-        nav here
+        <nav>
+          <div className='bg-black px-4 py-4'>
+            <Link className='text-lg' href={"/"}>Home</Link>
+          </div>
+        </nav>
         {children}
         </body>
     </html>
