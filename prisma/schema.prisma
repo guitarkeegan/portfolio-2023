@@ -15,10 +15,16 @@ model Project {
   title String @unique
   authors String
   role String
-  description String
+  concept String
+  process String
+  challenges String
+  technologies String
   liveUrl String?
   githubUrl String?
-  technologies String
+  demoUrl String?
   thumbnail String
+  screenShot1 String?
+  screenShot2 String?
+  screenShot3 String?
   alt String
 }

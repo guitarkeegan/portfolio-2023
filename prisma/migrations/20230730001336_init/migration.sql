@@ -4,10 +4,13 @@ CREATE TABLE "Project" (
     "title" TEXT NOT NULL,
     "authors" TEXT NOT NULL,
     "role" TEXT NOT NULL,
-    "description" TEXT NOT NULL,
+    "concept" TEXT NOT NULL,
+    "process" TEXT NOT NULL,
+    "challenges" TEXT NOT NULL,
+    "technologies" TEXT NOT NULL,
     "liveUrl" TEXT,
     "githubUrl" TEXT,
-    "technologies" TEXT NOT NULL,
+    "demoUrl" TEXT,
     "thumbnail" TEXT NOT NULL,
     "alt" TEXT NOT NULL
 );

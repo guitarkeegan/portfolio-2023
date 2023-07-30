@@ -7,7 +7,7 @@ import db from "@/lib/db";
 
 async function getData() {
   const res = await db.project.findMany();
-  console.log(res);
+  console.log(res && res[0]);
   return res;
 }
 
@@ -63,7 +63,7 @@ export default async function Home() {
               <div className="bg-black text-center" key={i}>
                 <h1 className="text-2xl">{proj.title}</h1>
                 <div className="rounded-lg">
-                  <Link href={`/project/${proj.title.toLocaleLowerCase().replace(/\s/, "-")}`}>
+                  <Link href={`/project/` + proj.id}>
                   <Image
                     alt={proj.alt}
                     src={proj.thumbnail}
@@ -71,7 +71,7 @@ export default async function Home() {
                     height={200}
                     className="border-2"
                   />
-                  </Link>
+                 </Link> 
                 </div>
               </div>
             ))}
