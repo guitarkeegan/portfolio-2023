@@ -16,7 +16,7 @@ export default async function Home() {
   return (
     <main>
       <Image
-        src="/trebleOnLeftGrass.png"
+        src="/trebleOnLeftGrass-fs8.png"
         alt="Music and code are the themes. The background is dark. Green grass. rain. surreal. Technology."
         quality={100}
         fill

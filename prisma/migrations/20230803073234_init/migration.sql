@@ -12,6 +12,9 @@ CREATE TABLE "Project" (
     "githubUrl" TEXT,
     "demoUrl" TEXT,
     "thumbnail" TEXT NOT NULL,
+    "screenShot1" TEXT,
+    "screenShot2" TEXT,
+    "screenShot3" TEXT,
     "alt" TEXT NOT NULL
 );
 

@@ -15,7 +15,7 @@ async function main(){
             role: "CTO, Full Stack Developer",
             liveUrl: "https://foreveryone.ai/pocketpr",
             technologies: "NextJS, Clerk, Supabase, GoogleApis, OpenAi",
-            thumbnail: "/pocketPRthumbnail.png",
+            thumbnail: "/thumbnails/pocketPRthumbnail-fs8.png",
             alt: "A helpful ai public relations assistant. The assistant looks smart, and empathetic. Dressed professionally. The assistant can be a man or a woman, but should be a blend of ethnicities. The background should be a medium to dark shade."
 
         }
@@ -30,7 +30,7 @@ async function main(){
             challenges: "This was the first time I had ever created a smart contract, and worked with a UI/UX Designer. It was also the first time that I had written a substantial amout of tests. Overall, I found the process to be very rewarding, and it kicked off a series of hackathons for me, which I still enjoy participating in.",
             role: "Smart Contract Developer, Full Stack Developer, Lead Developer",
             technologies: "Solidity, Hardhat, Chainlink, NextJS, Bootstrap",
-            thumbnail: "/SurpayLogoBlue.png",
+            thumbnail: "/thumbnails/SurpayLogoBlue-fs8.png",
             alt: "surpay logo"
         }
     });
@@ -45,7 +45,7 @@ async function main(){
             role: "Front End Developer",
             liveUrl: "https://quack-planets.vercel.app/",
             technologies: "NextJS, tailwind, CSS",
-            thumbnail: "/duckPlanets.png",
+            thumbnail: "/thumbnails/duckPlanets-fs8.png",
             alt: "A duck. Planets of the solar system. Space. Stars."
         }
     })
@@ -60,7 +60,7 @@ async function main(){
             liveUrl: "",
             role: "Smart Contract Developer, Full Stack Developer, Lead Developer",
             technologies: "Solidity, Hardhat, Chainlink, NextJS, Tailwind",
-            thumbnail: "/Esports_Betting_Stream_Logo_DM.png",
+            thumbnail: "/thumbnails/Esports_Betting_Stream_Logo_DM-fs8.png",
             alt: "Company logo, symbol"
         }
     });
@@ -74,7 +74,7 @@ async function main(){
             liveUrl: "",
             role: "Back end developer",
             technologies: "Node, DiscordJS, Heroku",
-            thumbnail: "/discordBot.png",
+            thumbnail: "/thumbnails/discordBot-fs8.png",
             alt: "A Discord bot. The bot has a job of helping users sign up for a hackathon. There should also be a hidden duck."
 
         }
@@ -89,7 +89,7 @@ async function main(){
             liveUrl: "",
             role: "Full Stack Developer",
             technologies: "Node, Express, Express-Apollo, GraphQL, React, Bootstrap",
-            thumbnail: "/steepDreams.png",
+            thumbnail: "/thumbnails/steepDreams-fs8.png",
             alt: "Dreaming of tea and green fields."
 
         }
