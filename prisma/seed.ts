@@ -16,6 +16,9 @@ async function main(){
             liveUrl: "https://foreveryone.ai/pocketpr",
             technologies: "NextJS, Clerk, Supabase, GoogleApis, OpenAi",
             thumbnail: "/thumbnails/pocketPRthumbnail-fs8.png",
+            screenShot1: "/img1/pocketPR_videoid-fs8.png",
+            screenShot2: "/img2/pocketPRDashboard-fs8.png",
+            screenShot3: "/img3/pocketPRLandingPage-fs8.png",
             alt: "A helpful ai public relations assistant. The assistant looks smart, and empathetic. Dressed professionally. The assistant can be a man or a woman, but should be a blend of ethnicities. The background should be a medium to dark shade."
 
         }
@@ -30,6 +33,9 @@ async function main(){
             challenges: "This was the first time I had ever created a smart contract, and worked with a UI/UX Designer. It was also the first time that I had written a substantial amout of tests. Overall, I found the process to be very rewarding, and it kicked off a series of hackathons for me, which I still enjoy participating in.",
             role: "Smart Contract Developer, Full Stack Developer, Lead Developer",
             technologies: "Solidity, Hardhat, Chainlink, NextJS, Bootstrap",
+            screenShot1: "/img1/surpayFrontMin.gif",
+            screenShot2: "/img2/surpaySurvey-fs8.png",
+            screenShot3: "/img3/surpayHomepage-fs8.png",
             thumbnail: "/thumbnails/SurpayLogoBlue-fs8.png",
             alt: "surpay logo"
         }
@@ -46,6 +52,9 @@ async function main(){
             liveUrl: "https://quack-planets.vercel.app/",
             technologies: "NextJS, tailwind, CSS",
             thumbnail: "/thumbnails/duckPlanets-fs8.png",
+            screenShot1: "/img1/quackPlanetsMin.gif",
+            screenShot2: "/img2/quackLanding-fs8.png",
+            screenShot3: "/img3/earthQuack-fs8.png",
             alt: "A duck. Planets of the solar system. Space. Stars."
         }
     })
@@ -53,14 +62,15 @@ async function main(){
     await prisma.project.create({
         data: {
             title: "CryptoBets",
-            authors: "Keegan Anglim, Christine Dang, Alan, Nathan",
-            concept: "Esport betting platform that uses a smart contract to handle the creation of betting pools and Chainlink Automation to trigger payout events.",
-            process: "I organized team meetings via discord. We had 4 team members including 2 Front End developers, a UI/UX Designer, and myself as the smart contract developer.",
+            authors: "Keegan Anglim, Christine Dang, Alan, Nathan", concept: "Esport betting platform that uses a smart contract to handle the creation of betting pools and Chainlink Automation to trigger payout events.", process: "I organized team meetings via discord. We had 4 team members including 2 Front End developers, a UI/UX Designer, and myself as the smart contract developer.",
             challenges: "Setting up the betting pool within the smart contract proved to be challenging. Also, it was very difficult for me to decide how we would be getting the game data, as well as what game data I was looking for, having never played League of Ledgends. The Riot Games API has a 24 hour limitation, which added another challenge with testing. The biggest thing I got out of doing this project was getting a sort of wurlwind overview of Chainlink Functions, which had just been released in beta. I was able to deploy the contract before the deadline, but we were not able to deploy the app (was not a requirement). I intend on going back to work on the front end for this app, because I respect the work that Christine put into this project, and want to realize her design.",
             liveUrl: "",
             role: "Smart Contract Developer, Full Stack Developer, Lead Developer",
             technologies: "Solidity, Hardhat, Chainlink, NextJS, Tailwind",
             thumbnail: "/thumbnails/Esports_Betting_Stream_Logo_DM-fs8.png",
+            screenShot1: "/img1/betDash.png",
+            screenShot2: "/img2/betLogos.jpg",
+            screenShot3: "/img3/betsPlaceBet.png",
             alt: "Company logo, symbol"
         }
     });
@@ -75,6 +85,9 @@ async function main(){
             role: "Back end developer",
             technologies: "Node, DiscordJS, Heroku",
             thumbnail: "/thumbnails/discordBot-fs8.png",
+            screenShot1: "/img1/discordBot1.png",
+            screenShot2: "/img2/",
+            screenShot3: "/img3/",
             alt: "A Discord bot. The bot has a job of helping users sign up for a hackathon. There should also be a hidden duck."
 
         }
@@ -90,6 +103,9 @@ async function main(){
             role: "Full Stack Developer",
             technologies: "Node, Express, Express-Apollo, GraphQL, React, Bootstrap",
             thumbnail: "/thumbnails/steepDreams-fs8.png",
+            screenShot1: "/img1/steepDreamsHomepage-fs8.png",
+            screenShot2: "/img2/steepDreamsCart-fs8.png",
+            screenShot3: "/img3/steepDreamsAboutUs-fs8.png",
             alt: "Dreaming of tea and green fields."
 
         }
