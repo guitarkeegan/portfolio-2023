@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
@@ -77,6 +78,7 @@ export default async function Home() {
             ))}
         </div>
       </div>
+      <Footer />
     </main>
   );
 }

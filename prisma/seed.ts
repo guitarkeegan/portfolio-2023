@@ -86,8 +86,8 @@ async function main(){
             technologies: "Node, DiscordJS, Heroku",
             thumbnail: "/thumbnails/discordBot-fs8.png",
             screenShot1: "/img1/discordBot1.png",
-            screenShot2: "/img2/",
-            screenShot3: "/img3/",
+            screenShot2: "/img2/discordBot3-fs8.png",
+            screenShot3: "/img3/discordBot2-fs8.png",
             alt: "A Discord bot. The bot has a job of helping users sign up for a hackathon. There should also be a hidden duck."
 
         }
