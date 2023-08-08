@@ -21,13 +21,13 @@ export default async function Project({ params }: { params: { id: string } }) {
       </div>
       <div className="flex justify-center">
         <div className="mt-6 w-[280px]">
-          <h2 className="text-center text-xl text-">Technologies used</h2>
+          <h2 className="text-center text-xl">Technologies used</h2>
           <div className="text-center p-2">{res.technologies}</div>
         </div>
       </div>
       <section id="concept">
         <div id="image" className="flex flex-row justify-center items-center">
-          <div className="w-[280px] border-2">
+          <div className="w-[280px] border-2 sm:w-[400px]">
             <Image src={res.thumbnail} alt={res.alt} width={400} height={400} />
           </div>
         </div>
@@ -38,7 +38,7 @@ export default async function Project({ params }: { params: { id: string } }) {
       </section>
       {/* Process and technologies used */}
       <section className="flex flex-col items-center mt-12">
-        <div className="w-[280px] border-2">
+        <div className="w-[280px] border-2 sm:w-[400px]">
           <Image
             src={res.screenShot1 as string}
             alt={"screenshot of app"}
@@ -53,7 +53,7 @@ export default async function Project({ params }: { params: { id: string } }) {
       </section>
       {/* Challenges, learnings, and Current Status */}
       <section className="flex flex-col items-center mt-12">
-        <div className="w-[280px] border-2">
+        <div className="w-[280px] border-2 sm:w-[400px]">
           <Image
             src={res.screenShot2 as string}
             alt={"screenshot of app"}
@@ -65,7 +65,7 @@ export default async function Project({ params }: { params: { id: string } }) {
           <h3 className="text-2xl mb-2 border-b">Challenges</h3>
           <p className="text-xl">{res.challenges}</p>
         </div>
-        <div className="w-[280px] border-2 mt-12">
+        <div className="w-[280px] border-2 mt-12 sm:w-[400px]">
           <Image
             src={res.screenShot3 as string}
             alt={"screenshot of app"}

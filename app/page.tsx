@@ -15,7 +15,7 @@ async function getData() {
 export default async function Home() {
   const data = await getData();
   return (
-    <main>
+    <main className='lg:flex flex-col lg:justify-center lg:items-center'>
       <Image
         src="/trebleOnLeftGrass-fs8.png"
         alt="Music and code are the themes. The background is dark. Green grass. rain. surreal. Technology."
@@ -29,7 +29,7 @@ export default async function Home() {
         className="-z-50 fixed"
       />
       <div
-        className="text-center my-12 p-4"
+        className="text-center my-12 p-4 lg:w-[400px] lg:rounded-sm"
         style={{ backgroundColor: "rgba(41, 37, 36, .8)" }}
       >
         <h1 className="text-4xl">Keegan Anglim</h1>
@@ -63,14 +63,14 @@ export default async function Home() {
             data.map((proj, i) => (
               <div className="bg-black text-center" key={i}>
                 <h1 className="text-2xl">{proj.title}</h1>
-                <div className="rounded-lg">
+                <div className="rounded-lg ">
                   <Link href={`/project/` + proj.id}>
                   <Image
                     alt={proj.alt}
                     src={proj.thumbnail}
                     width={200}
                     height={200}
-                    className="border-2"
+                    className="border-2 border-main-theme"
                   />
                  </Link> 
                 </div>
@@ -78,7 +78,6 @@ export default async function Home() {
             ))}
         </div>
       </div>
-      <Footer />
     </main>
   );
 }

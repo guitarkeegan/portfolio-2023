@@ -6,6 +6,8 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --text-dark: #32471D;
+  --text-light: #B1D092;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -24,4 +26,18 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+div, h2, h4, p {
+  color: rgb(209 213 219); 
+}
+
+h3, h1 {
+  color: rgb(229 231 235);
+  color: var(--text-light);
+}
+
+
+#footer {
+  background-image: url("../public/greenGrassMusic-fs8.png");
 }
