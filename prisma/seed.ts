@@ -16,7 +16,7 @@ async function main(){
             liveUrl: "https://foreveryone.ai/pocketpr",
             technologies: "NextJS, Clerk, Supabase, GoogleApis, OpenAi",
             thumbnail: "/thumbnails/pocketPRthumbnail-fs8.png",
-            screenShot1: "/img1/pocketPR_videoid-fs8.png",
+            screenShot1: "/img1/pocketPR_videoId-fs8.png",
             screenShot2: "/img2/pocketPRDashboard-fs8.png",
             screenShot3: "/img3/pocketPRLandingPage-fs8.png",
             alt: "A helpful ai public relations assistant. The assistant looks smart, and empathetic. Dressed professionally. The assistant can be a man or a woman, but should be a blend of ethnicities. The background should be a medium to dark shade."

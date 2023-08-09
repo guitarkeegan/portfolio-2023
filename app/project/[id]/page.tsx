@@ -82,10 +82,10 @@ export default async function Project({ params }: { params: { id: string } }) {
                         <FaGithub />
                     </a>
                     <a className="hover:opacity-50" href={res?.liveUrl ? res.liveUrl : "#"}>
-                        {res?.liveUrl ? "Live Project" : "No live url for this project"}
+                        {res?.liveUrl ? "Live Project" : ""}
                     </a>
                     <a className="hover:opacity-50" href={res?.demoUrl ? res.demoUrl : "#"}>
-                        {res?.demoUrl ? "Video Demo" : "No demo video for this project"}
+                        {res?.demoUrl ? "Video Demo" : ""}
                     </a>
                 </div>
             </section>
