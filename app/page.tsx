@@ -8,7 +8,6 @@ import db from "@/lib/db";
 
 async function getData() {
     const res = await db.project.findMany();
-    console.log(res && res[0]);
     return res;
 }
 
@@ -58,7 +57,7 @@ export default async function Home() {
                 <FaGithub />
                 <FaMailBulk />
             </div>
-            <div className="flex flex-col gap-12 justify-center items-center mt-[110px]">
+            <div className="flex flex-col gap-12 justify-center items-center mt-[200px]">
                 <h3 className="text-4xl font-bold">My Work</h3>
                 <div className="flex flex-col md:flex-row md:flex-wrap gap-12 justify-center items-center">
                     {data &&
