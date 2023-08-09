@@ -1,3 +1,4 @@
+import {AiTwotoneHome} from 'react-icons/ai'
 import Footer from "@/components/Footer";
 import Link from "next/link";
 import "./globals.css";
@@ -21,8 +22,8 @@ export default function RootLayout({
       <body className={rSlab.className}>
         <nav>
           <div className="bg-black px-4 py-4">
-            <Link className="text-lg" href={"/"}>
-              Home
+            <Link className="text-4xl text-secondary" href={"/"}>
+              <AiTwotoneHome />
             </Link>
           </div>
         </nav>
