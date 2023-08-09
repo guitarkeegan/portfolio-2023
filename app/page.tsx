@@ -14,7 +14,7 @@ async function getData() {
 export default async function Home() {
     const data = await getData();
     return (
-        <main className='lg:flex flex-col lg:justify-center lg:items-center'>
+        <main className='bg-stone-700 lg:flex flex-col lg:justify-center lg:items-center mb-12'>
             <Image
                 src="/trebleOnLeftGrass-fs8.png"
                 alt="Music and code are the themes. The background is dark. Green grass. rain. surreal. Technology."
@@ -24,18 +24,19 @@ export default async function Home() {
                 sizes="100vw"
                 style={{
                     objectFit: "cover",
+                    zIndex: "1",
                 }}
                 className="-z-50 fixed"
             />
             <div
                 id='hero-div'
-                className="text-center my-12 p-4 lg:w-[400px] lg:rounded-sm"
+                className="z-10 text-center my-12 p-4 lg:w-[400px] lg:rounded-sm"
                 style={{ backgroundColor: "rgba(41, 37, 36, .8)" }}
             >
                 <h1 className="text-4xl">Keegan Anglim</h1>
                 <h2 className="text-xl text-main-theme">Software Developer</h2>
             </div>
-            <div className="flex justify-center">
+            <div className="z-20 flex justify-center">
                 <Image
                     className="rounded-full"
                     src="/profile_selfie.jpg"
@@ -51,7 +52,7 @@ export default async function Home() {
             <div
                 id='socials-div'
                 style={{ backgroundColor: "rgba(41, 37, 36, .7)" }}
-                className="text-white text-4xl flex flex-row gap-4 justify-evenly items-center mt-12 p-6 "
+                className="z-10 text-white text-4xl flex flex-row gap-4 justify-evenly items-center mt-12 p-6 "
             >
                 <FaLinkedin />
                 <FaGithub />
@@ -59,10 +60,10 @@ export default async function Home() {
             </div>
             <div className="flex flex-col gap-12 justify-center items-center mt-[200px]">
                 <h3 className="text-4xl font-bold">My Work</h3>
-                <div className="flex flex-col md:flex-row md:flex-wrap gap-12 justify-center items-center">
+                <div className="bg-stone-700 flex flex-col md:flex-row md:flex-wrap gap-12 justify-center items-center">
                     {data &&
             data.map((proj, i) => (
-                <div id='proj-title' className="bg-black text-center" key={i}>
+                <div id='proj-title' className="bg-stone-700 text-center" key={i}>
                     <h1 className="text-2xl">{proj.title}</h1>
                     <div className="rounded-lg md:w-[400px] w-[250px] ">
                         <Link href={`/project/` + proj.id}>
@@ -71,7 +72,7 @@ export default async function Home() {
                                 src={proj.thumbnail}
                                 width={400}
                                 height={400}
-                                className="border-2 border-main-theme lg:hover:border-pop transition-colors duration-300 ease-in-out"
+                                className="bg-stone-800 border-2 border-main-theme lg:hover:border-pop transition-colors duration-300 ease-in-out"
                                 id='proj-pic'
                             />
                         </Link> 
