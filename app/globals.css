@@ -33,6 +33,7 @@ body {
 
 #hero-div, #socials-div {
   box-shadow: 0 0 20px var(--text-light);
+  color: var(--main-theme);
 }
 
 div, h2, h4, p {
@@ -40,8 +41,7 @@ div, h2, h4, p {
 }
 
 h3, h1 {
-  color: rgb(229 231 235);
-  color: var(--text-light);
+  color: var(--main-theme)
 }
 
 #footer {
