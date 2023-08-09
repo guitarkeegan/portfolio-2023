@@ -6,7 +6,7 @@ export default async function Project({ params }: { params: { id: string } }) {
     console.log(params.id);
     const res = await db.project.findFirst({
         where: {
-            id: params.id,
+            id: parseInt(params.id),
         },
     });
 
