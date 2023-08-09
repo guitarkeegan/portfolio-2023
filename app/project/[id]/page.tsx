@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 export default async function Project({ params }: { params: { id: string } }) {
     console.log(params.id);
-    const res = await db.project.findFirst({
+    const res = await db.project.findUnique({
         where: {
             id: parseInt(params.id),
         },
