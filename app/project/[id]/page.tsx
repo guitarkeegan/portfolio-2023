@@ -9,7 +9,7 @@ export default async function Project({ params }: { params: { id: string } }) {
             id: params.id,
         },
     });
-    console.log(res);
+
     if (!res) {
         return <>nothing to see here</>;
     }

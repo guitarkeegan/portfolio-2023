@@ -1,6 +1,6 @@
 -- CreateTable
 CREATE TABLE "Project" (
-    "id" TEXT NOT NULL PRIMARY KEY,
+    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     "title" TEXT NOT NULL,
     "authors" TEXT NOT NULL,
     "role" TEXT NOT NULL,
