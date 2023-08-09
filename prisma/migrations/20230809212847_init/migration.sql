@@ -1,6 +1,6 @@
 -- CreateTable
 CREATE TABLE "Project" (
-    "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    "id" SERIAL NOT NULL,
     "title" TEXT NOT NULL,
     "authors" TEXT NOT NULL,
     "role" TEXT NOT NULL,
@@ -15,7 +15,9 @@ CREATE TABLE "Project" (
     "screenShot1" TEXT,
     "screenShot2" TEXT,
     "screenShot3" TEXT,
-    "alt" TEXT NOT NULL
+    "alt" TEXT NOT NULL,
+
+    CONSTRAINT "Project_pkey" PRIMARY KEY ("id")
 );
 
 -- CreateIndex
