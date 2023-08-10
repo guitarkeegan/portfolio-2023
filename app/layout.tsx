@@ -21,7 +21,7 @@ export default function RootLayout({
         <html lang="en">
             <body className={rSlab.className}>
                 <nav style={{zIndex: 20, position: "relative" }}>
-                    <div className="bg-black px-4 py-4">
+                    <div className="bg-stone-700 px-4 py-4">
                         <Link className="text-4xl text-secondary hover:opacity-50" href={"/"}>
                             <AiTwotoneHome />
                         </Link>

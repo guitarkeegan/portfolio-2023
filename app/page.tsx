@@ -2,9 +2,9 @@ import Footer from '@/components/Footer';
 import Link from 'next/link';
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaMailBulk } from "react-icons/fa";
 import Image from "next/image";
 import db from "@/lib/db";
+import Email from '@/components/Email';
 
 async function getData() {
     const res = await db.project.findMany();
@@ -54,9 +54,9 @@ export default async function Home() {
                 style={{ backgroundColor: "rgba(41, 37, 36, .7)" }}
                 className="z-30 relative text-white text-4xl flex flex-row gap-4 justify-evenly items-center mt-12 p-6 "
             >
-                <FaLinkedin />
-                <FaGithub />
-                <FaMailBulk />
+                <a className="active:translate-y-2 transition-transform duration-100" href="https://www.linkedin.com/in/keegananglim"><FaLinkedin /></a>
+                <a className="active:translate-y-2 transition-transform duration-100" href="https://www.github.com/guitarkeegan"><FaGithub /></a>
+                <Email />
             </div>
             <div className="flex flex-col gap-12 justify-center items-center mt-[200px]">
                 <h3 className="text-4xl font-bold">My Work</h3>
