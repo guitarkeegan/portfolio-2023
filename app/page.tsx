@@ -24,19 +24,19 @@ export default async function Home() {
                 sizes="100vw"
                 style={{
                     objectFit: "cover",
-                    zIndex: "1",
+                    zIndex: "0",
                 }}
                 className="-z-50 fixed"
             />
             <div
                 id='hero-div'
-                className="z-10 text-center my-12 p-4 lg:w-[400px] lg:rounded-sm"
+                className="z-10 relative text-center my-12 p-4 lg:w-[400px] lg:rounded-sm"
                 style={{ backgroundColor: "rgba(41, 37, 36, .8)" }}
             >
                 <h1 className="text-4xl">Keegan Anglim</h1>
                 <h2 className="text-xl text-main-theme">Software Developer</h2>
             </div>
-            <div className="z-20 flex justify-center">
+            <div className="z-30 relative flex justify-center">
                 <Image
                     className="rounded-full"
                     src="/profile_selfie.jpg"
@@ -52,7 +52,7 @@ export default async function Home() {
             <div
                 id='socials-div'
                 style={{ backgroundColor: "rgba(41, 37, 36, .7)" }}
-                className="z-10 text-white text-4xl flex flex-row gap-4 justify-evenly items-center mt-12 p-6 "
+                className="z-30 relative text-white text-4xl flex flex-row gap-4 justify-evenly items-center mt-12 p-6 "
             >
                 <FaLinkedin />
                 <FaGithub />

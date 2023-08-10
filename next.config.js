@@ -14,7 +14,8 @@ const nextConfig = {
                 pathname: "/i/**"
             }
         ]
-    }
+    },
+    
 }
 
 module.exports = nextConfig

@@ -20,7 +20,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={rSlab.className}>
-                <nav>
+                <nav style={{zIndex: 20, position: "relative" }}>
                     <div className="bg-black px-4 py-4">
                         <Link className="text-4xl text-secondary hover:opacity-50" href={"/"}>
                             <AiTwotoneHome />
