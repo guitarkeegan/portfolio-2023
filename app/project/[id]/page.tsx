@@ -32,7 +32,7 @@ export default async function Project({ params }: { params: { id: string } }) {
                     </div>
                 </div>
                 <div id="app-idea" className="px-3 mt-12">
-                    <h3 className="text-2xl mb-2 border-b ">Concept</h3>
+                    <h3 className="text-2xl mb-2 border-b border-dark-text dark:border-white ">Concept</h3>
                     <p className="text-xl">{res.concept}</p>
                 </div>
             </section>
@@ -47,13 +47,13 @@ export default async function Project({ params }: { params: { id: string } }) {
                     />
                 </div>
                 <div id="app-idea" className="px-3 mt-12">
-                    <h3 className="text-2xl mb-2 border-b">Process</h3>
+                    <h3 className="text-2xl mb-2 border-b border-dark-text dark:border-white">Process</h3>
                     <p className="text-xl">{res.process}</p>
                 </div>
             </section>
             {/* Challenges, learnings, and Current Status */}
             <section className="flex flex-col items-center mt-12">
-                <div className="w-[280px] border-2 sm:w-[400px]">
+                <div className="w-[280px] border-2 sm:w-[400px] border-dark-text dark:border-white">
                     <Image
                         src={res.screenShot2 as string}
                         alt={"screenshot of app"}
@@ -62,7 +62,7 @@ export default async function Project({ params }: { params: { id: string } }) {
                     />
                 </div>
                 <div id="app-idea" className="px-3 mt-12">
-                    <h3 className="text-2xl mb-2 border-b">Challenges</h3>
+                    <h3 className="text-2xl mb-2 border-b border-dark-text dark:border-white">Challenges</h3>
                     <p className="text-xl">{res.challenges}</p>
                 </div>
                 <div className="w-[280px] border-2 mt-12 sm:w-[400px]">
@@ -76,8 +76,8 @@ export default async function Project({ params }: { params: { id: string } }) {
             </section>
             {/* Links */}
             <section>
-                <h4 className="text-2xl text-main-theme mt-12 mb-2 border-b">Project Links</h4>
-                <div className="flex flex-col text-lg">
+                <h4 className="text-2xl dark:text-main-theme text-dark-text mt-12 mb-2 border-b border-dark-text dark:border-white mx-4">Project Links</h4>
+                <div className="flex flex-col text-lg mx-4">
                     <a className="text-4xl hover:opacity-50" href={res?.githubUrl ? res.githubUrl : "#"}>
                         <FaGithub />
                     </a>
