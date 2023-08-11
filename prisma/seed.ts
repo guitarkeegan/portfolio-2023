@@ -10,8 +10,8 @@ async function main(){
             title: "Pocket PR",
             authors: "Keegan Anglim, Daniel Johnson",
             concept: "A content creator connects their social media accounts and gains ai generated insights about their communities, and valuble feedback on their content. The motivation of this app is to help content creators who cover difficult topics, better understand the discussions happening within their communities.",
-            process: "I have worked on the user onboarding page, requesting, storing, and pre-processing data for interactions with Openai. I have been using LangChain for better facilitating the openai calls.",
-            challenges: "Getting the proper scopes and realizing that we needed to reflect that information within our Clerk dashboard to a some time to understand. Getting Prisma, Supabase, and Clerk to all play well together has also been a challenge. Finally, learning the best classes and methods in the LangChain library to help achieve our goals, has been a tremendous learning experience. Having gone through some of the challenges will certainly help me when faced with similar problems in the future. I remain very motivated, and enjoy working on this project everyday. We are currently pre-seed, and in the process of completing our MVP.",
+            process: "I have worked on the user onboarding page, requesting, storing, and processing data for interactions with Openai using LangChain.",
+            challenges: "Getting the proper scopes and realizing that we needed to reflect that information within our Clerk dashboard took some time to understand. Getting Prisma, Supabase, and Clerk to all play well together has also been a challenge. Finally, learning the best classes and methods in the LangChain library to help achieve our goals, has been a tremendous learning experience. Having gone through some of the challenges will certainly help me when faced with similar problems in the future. I remain very motivated, and enjoy working on this project everyday. We are currently pre-seed, and in the process of completing our MVP.",
             role: "CTO, Full Stack Developer",
             liveUrl: "https://foreveryone.ai/pocketpr",
             technologies: "NextJS, Clerk, Supabase, GoogleApis, OpenAi",
@@ -19,8 +19,7 @@ async function main(){
             screenShot1: "/img1/pocketPR_videoId-fs8.png",
             screenShot2: "/img2/pocketPRDashboard-fs8.png",
             screenShot3: "/img3/pocketPRLandingPage-fs8.png",
-            alt: "A helpful ai public relations assistant. The assistant looks smart, and empathetic. Dressed professionally. The assistant can be a man or a woman, but should be a blend of ethnicities. The background should be a medium to dark shade."
-
+            alt: "A helpful ai public relations assistant. The assistant looks smart, and empathetic. Dressed professionally."
         }
     });
 
@@ -28,9 +27,9 @@ async function main(){
         data: {
             title: "Surpay",
             authors: "Keegan Anglim, Christine Dang, Alan Abed",
-            concept: "A company funds and creates a survey, users take the survey and receive crypto! As someone who avoids people with clipboards, and generally hates taking surveys, I thought, what if someone paid me in crypto in return for taking their survey!?",
-            process: "I led this team, wrote tested and deployed the smart contract using Hardhat and Solidity. I created the database schemas to hold the survey data using MySQL. User authentication and authorization was done with Iron Session. I also used Moralis for interations between our web application and the smart contract.", 
-            challenges: "This was the first time I had ever created a smart contract, and worked with a UI/UX Designer. It was also the first time that I had written a substantial amout of tests. Overall, I found the process to be very rewarding, and it kicked off a series of hackathons for me, which I still enjoy participating in.",
+            concept: "A company funds and creates a survey, users take the survey and receive crypto! As someone who avoids people with clipboards and generally hates taking surveys, I thought, what if someone paid me in crypto in return for taking their survey!?",
+            process: "I led this team, wrote tested and deployed the smart contract using Hardhat and Solidity. I created the database schemas to hold the survey data using MySQL and Sequelize. User authentication and authorization was done with Iron Session. I also used Moralis for interations between our web application and the smart contract.", 
+            challenges: "This was the first time I had ever created a smart contract, and worked with a UI/UX Designer. It was also the first time that I had written a substantial amount of tests. Overall, I found the process to be very rewarding, and it kicked off a series of hackathons for me, which I still enjoy participating in.",
             role: "Smart Contract Developer, Full Stack Developer, Lead Developer",
             githubUrl: "https://github.com/guitarkeegan/surpay-backend",
             demoUrl: "https://www.youtube.com/watch?v=VRwA3HvGrww",
@@ -48,7 +47,7 @@ async function main(){
         data: {
             title: "Quack-Planets",
             authors: "Keegan Anglim",
-            concept: "Hackathon project were each team was tasked with creating an educational site about the planets of our solar system using only css to create the planets.",
+            concept: "Hackathon project where each team was tasked with creating an educational site about the planets of our solar system using only css to create the planets.",
             process: "There were 3 developers on my team. I helped to set up the database schemas, and we each chose which parts of the site we wanted to style. I illustrated Earth, Jupiter, Saturn, Mercury, Venus using only CSS/Tailwind",
             challenges: "Creating the planets using only CSS was very challenging, but it forced me to be creative with my approach. It was also the first time I had worked with a team accross 3 timezones. It took us about a week, but we were able to meet the submission deadline and fullfill all of the requirements.",
             role: "Front End Developer",
@@ -85,7 +84,7 @@ async function main(){
             title: "Discord Bot",
             authors: "Keegan Anglim, Rick Rieger, Auroiah",
             concept: "Hackathon project for the Dear Junior Dev Hackathon. Each group was tasked with creating a chatbot that would provide a social good for the discord community of developers. We built a bot that would aid the administrators in creating and managing hackathons. ",
-            process: "I created several slash commands using Node, and the DiscordJS library. This was the same team that I worked with for the Quack-Planets project. We worked accross 3 timezones, and managed to complete the project before the deadline. We deployed the server for the bot to Heroku.",
+            process: "I created several slash commands using Node, and the DiscordJS library. This was the same team that I worked with for the Quack-Planets project. We worked across 3 timezones, and managed to complete the project before the deadline. We deployed the server for the bot to Heroku.",
             challenges: "I had never created a bot of any kind before this project, so that was fun! I would say the biggest challenge was dealing with the DiscordJS documentation, which seemed to be somewhat fragmented, but in fairness, the folks maintaining the library were in the process of creating a newer version.",
             role: "Back end developer",
             technologies: "Node, DiscordJS, Heroku",
