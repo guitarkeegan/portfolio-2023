@@ -4,27 +4,48 @@
 
 :root {
   --main-theme: rgb(140, 200, 80);
-  --text-dark: #32471D;
-  --text-light: #B1D092;
-  --pop: #B950C7;
-  --secondary: #63DE4E;
+  --text-dark: #32471d;
+  --text-light: #b1d092;
+  --pop: #b950c7;
+  --secondary: #63de4e;
 }
 
 body {
-  background-color: rgb(68 64 60);
+  background-color: rgb(255 228 230);
 }
 
-#hero-div, #socials-div {
+#hero-div,
+#socials-div {
   box-shadow: 0 0 20px var(--text-light);
   color: var(--main-theme);
 }
 
-div, h2, h4, p {
-  color: rgb(209 213 219); 
+div,
+h2,
+h4,
+p {
+  color: rgb(209 213 219);
+  color: var(--text-dark);
 }
 
-h3, h1 {
-  color: var(--main-theme)
+h3 {
+  color: var(--text-dark);
+}
+
+@media (prefers-color-scheme: dark) {
+  h3,
+  h1 {
+    color: var(--main-theme);
+  }
+  div,
+  h2,
+  h4,
+  p {
+    color: rgb(209 213 219);
+  }
+  body {
+    background-color: rgb(68 64 60);
+  }
 }
 
 #footer {

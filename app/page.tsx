@@ -14,7 +14,7 @@ async function getData() {
 export default async function Home() {
     const data = await getData();
     return (
-        <main className='bg-stone-700 lg:flex flex-col lg:justify-center lg:items-center mb-12'>
+        <main className='dark:bg-stone-700 bg-rose-100 lg:flex flex-col lg:justify-center lg:items-center mb-12'>
             <Image
                 src="/trebleOnLeftGrass-fs8.png"
                 alt="Music and code are the themes. The background is dark. Green grass. rain. surreal. Technology."
@@ -60,10 +60,10 @@ export default async function Home() {
             </div>
             <div className="flex flex-col gap-12 justify-center items-center mt-[200px]">
                 <h3 className="text-4xl font-bold">My Work</h3>
-                <div className="bg-stone-700 flex flex-col md:flex-row md:flex-wrap gap-12 justify-center items-center">
+                <div className="dark:bg-stone-700 bg-rose-100 flex flex-col md:flex-row md:flex-wrap gap-12 justify-center items-center">
                     {data &&
             data.map((proj, i) => (
-                <div id='proj-title' className="bg-stone-700 text-center" key={i}>
+                <div id='proj-title' className="dark:bg-stone-700 bg-rose-100 text-center" key={i}>
                     <h1 className="text-2xl">{proj.title}</h1>
                     <div className="rounded-lg md:w-[400px] w-[250px] ">
                         <Link href={`/project/` + proj.id}>
@@ -72,7 +72,7 @@ export default async function Home() {
                                 src={proj.thumbnail}
                                 width={400}
                                 height={400}
-                                className="bg-stone-800 border-2 border-main-theme lg:hover:border-pop transition-colors duration-300 ease-in-out"
+                                className="dark:bg-stone-800 bg-rose-100 border-2 border-main-theme lg:hover:border-pop transition-colors duration-300 ease-in-out"
                                 id='proj-pic'
                             />
                         </Link> 
