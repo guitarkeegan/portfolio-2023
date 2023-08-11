@@ -27,7 +27,7 @@ export default async function Project({ params }: { params: { id: string } }) {
             </div>
             <section id="concept">
                 <div id="image" className="flex flex-row justify-center items-center">
-                    <div className="w-[280px] border-2 sm:w-[400px]">
+                    <div className="w-[280px] border-2 border-dark-text dark:border-white sm:w-[400px]">
                         <Image src={res.thumbnail} alt={res.alt} width={400} height={400} />
                     </div>
                 </div>
